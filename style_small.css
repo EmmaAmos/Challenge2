@@ -1,0 +1,10 @@
+/* Styles for mobile screens */
+@media (min-width: 375px) {
+    /* Styles specific to desktop screens */
+    body {
+      background-color: lightpink;
+    }
+
+
+
+} /*end of @media*/

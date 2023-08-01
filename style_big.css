@@ -1,0 +1,12 @@
+/* Styles for desktop screens */
+@media (max-width: 1440px) {
+    /* Styles specific to mobile screens */
+    body {
+      background-color: lightblue;
+    }
+
+
+
+
+
+}/*end of @media*/
