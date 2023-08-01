@@ -18,4 +18,51 @@
         color: white;
       }
 
+
+    /*Left Screen*/
+    .react{
+    text-align: left;
+    grid-area: react;
+    }
+    .reactNum{
+    text-align: right;
+    grid-area: reactNum;
+    }
+    .mem{
+    text-align: left;
+    grid-area: mem;
+    }
+    .memNum{
+    text-align: right;
+    grid-area: memNum;
+    }
+    .verb{
+    text-align: left;
+    grid-area: verb;
+    }
+    .verbNum{
+    text-align: right;
+    grid-area: verbNum;
+    }
+    .vis{
+    text-align: left;
+    grid-area: vis;
+    }
+    .visNum{
+    text-align: right;
+    grid-area: visNum;
+    }
+
+    .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-template-areas:
+        "react reactNum"
+        "mem memNum"
+        "verb verbNum"
+        "vis VisNum";
+    gap: 10px;
+    }
+
 }

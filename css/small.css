@@ -18,30 +18,22 @@
         color: white;
       }
 
-
-      /*Left Screen*/
-      .react{
-        
+      .LeftScreen{
+        background-color: blueviolet;
       }
-      .reactNum{
 
+      .RightScreen{
+        background-color: white;
       }
-      .mem{
 
-      }
-      .memNum{
+      .container1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "LeftScreen"
+            "RightScreen";
+        gap: 10px;
+        }
 
-      }
-      .verb{
-
-      }
-      .verbNum{
-
-      }
-      .vis{
-
-      }
-      .visNum{
-
-      }
 }
