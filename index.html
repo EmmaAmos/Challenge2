@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style_big.css">
   <link rel="stylesheet" href="style_small.css">
-  <link rel="stylesheet" href="style_Common.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
@@ -18,60 +17,67 @@
   </style>
 </head>
 <body>
-  <div class="resultMain">
-    <div>
-      <h2 style="color: aliceblue;">Your Result</h2>
-      <div class="resultNumberContainer">
-        <div class="circle">
-          <p class="resultMainNumber">75</p> 
+  <div class="grid-container">
+        <div class="resultMain" id="top">
+            <div>
+              <h2 style="color: aliceblue;">Your Result</h2>
+              <div class="resultNumberContainer">
+                <div class="circle">
+                  <p class="resultMainNumber">75</p> 
+                </div>
+                  <p class="resultMainOutOf">of 100</p> 
+              </div>
+              <div>
+                <h1 style="color: white;">Great</h1>
+                <p style="color: aliceblue;">
+                  You scored higher than 65% of the people who have taken these tests.
+                </p>           
+              </div> 
+            </div>
         </div>
-          <p class="resultMainOutOf">of 100</p> 
-      </div>
-      <div>
-        <h1 style="color: white;">Great</h1>
-        <p style="color: aliceblue;">
-          You scored higher than 65% of the people who have taken these tests.
-        </p>           
-      </div> 
-    </div>
-  </div>
 
-
-  <div class="Result">
-    <div class="centerText">
-      <h1>Summary</h1>
-      <div class="resultsSummary">
-        <div class="SummaryTitle Reaction">
-          Reaction        
-          <div class="SumaryNumbers">
-            <p>80 /100</p> 
-          </div>
+      <div  id="bottum">
+            <div class="Result">
+              <div class="centerText">
+                <h1>Summary</h1>
+                <div class="resultsSummary">
+                  <div class="SummaryTitle Reaction" id="reaction">
+                      <div class="grid-container">
+                        <h1>Reaction</h1>      
+                          <div class="SumaryNumbers">
+                            <p>80 /100</p> 
+                          </div>
+                      </div>
+                          <br>
+                      <div class="SummaryTitle Memory" id="memory">
+                          <p>Memory</p>      
+                          <div class="SumaryNumbers">
+                            <p>92 /100</p>
+                        </div>
+                      </div>
+                          <br>
+                      <div class="SummaryTitle Verbal" id="verbal">
+                          <p>Verbal</p>
+                        <div class="SumaryNumbers">
+                          <p>61 /100</p>
+                        </div>
+                      </div>
+                          <br>
+                      <div class="SummaryTitle Visual" id="visual">
+                            <p>Visual</p>
+                          <div class="SumaryNumbers">
+                            <p>72 /100</p>
+                        </div> 
+                      </div>
+                  </div> 
+                  <button class="my-btn">Continue</button>
+                </div> 
+              </div>  
+            </div>
         </div>
-        <br>
-        <div class="SummaryTitle Memory">
-          Memory        
-          <div class="SumaryNumbers">
-            <p>92 /100</p>
-          </div>
-        </div>
-        <br>
-        <div class="SummaryTitle Verbal">
-          Verbal
-          <div class="SumaryNumbers">
-            <p>61 /100</p>
-          </div>
-        </div>
-        <br>
-        <div class="SummaryTitle Visual">
-          Visual
-          <div class="SumaryNumbers">
-            <p>72 /100</p>
-          </div> 
-        </div>
-        <button class="my-btn">Continue</button>
-      </div> 
-    </div>  
   </div>
+ 
+  
   
   <br>
   <br>

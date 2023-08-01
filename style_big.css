@@ -1,5 +1,5 @@
 /* Styles for desktop screens */
-@media (max-width: 1440px) {
+@media (max-width: 921px) {
     /* Styles specific to mobile screens */
     body {
       background-color: lightblue;
