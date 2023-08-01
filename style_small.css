@@ -1,5 +1,5 @@
 /* Styles for mobile screens */
-@media (min-width: 821px) {
+@media (min-width: 421px) {
     /* Styles specific to desktop screens */
     body {
       background-color: lightpink;
