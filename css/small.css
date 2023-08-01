@@ -14,16 +14,18 @@
       
       /* Set the styles for the button when hovered over */
       .my-btn:hover {
-        background-color: red;
+        background-color: blueviolet;
         color: white;
       }
 
       .LeftScreen{
-        background-color: blueviolet;
+        background-color: rgb(52, 101, 236);
+        grid-area: "LeftScreen";
       }
 
       .RightScreen{
         background-color: white;
+        grid-area: "RightScreen";
       }
 
       .container1 {
