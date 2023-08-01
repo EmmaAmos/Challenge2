@@ -4,7 +4,132 @@
     body {
       background-color: lightblue;
     }
-
+    body{
+      display: inline-block;
+      font-family: Hanken Grotesk;
+  }
+  
+  .my-btn {
+      /* Set the initial color */
+      border: none;
+      background-color: rgb(43, 43, 128);
+      color: rgb(253, 253, 253);
+      border-radius: 225px; /* Adjust the border-radius value to control the roundness */
+      padding: 10px 50px; /* Adjust the padding values to control the size */
+      display: inline-block;
+    }
+    
+    .my-btn:hover {
+      /* Set the color when the mouse hovers over */
+      background-color: rgb(62, 12, 199);
+    }
+  
+  /*Left of Screen*/
+  .resultMain{
+  
+      position: relative;
+      z-index: 7;
+  
+     float: left;
+      background-color: blue;
+  
+      width: 200px;
+      height: 445px;
+      border-radius: 10px;
+  
+      text-align: center;
+      padding: 25px;
+  }
+  
+  
+  .resultNumberContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .circle {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: rgb(108, 108, 133);
+      color: white;
+      text-align: center;
+      line-height: 150px;
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    
+    .resultMainNumber {
+      margin: 0;
+    }
+    
+    .resultMainOutOf {
+      margin: 0;
+      font-size: 18px;
+      color: aliceblue;
+    }
+    
+    .my-btn {
+      margin-top: 20px;
+    }
+  
+  
+  /*Right of Screen*/
+  .Result {
+      position: relative;
+      z-index: -3;
+      float: right;
+      width: 200px;
+      height: 445px;
+      border-radius: 10px;
+      text-align: center;
+      padding: 25px;
+      background-color: white;
+    }
+    
+    .resultsSummary {
+      color: rgb(242, 243, 243);
+    }
+    
+    .SummaryTitle {
+      float: left;
+      display: block; /* Display as block */
+      margin-bottom: 10px; /* Add spacing between blocks */
+    }
+    
+    .SumaryNumbers {
+      float: right;
+      display: block; /* Display as block */
+    }
+    
+    .Reaction {
+      background-color: rgb(236, 125, 125);
+      border-radius: 10px;
+      height: 25px;
+      text-align: center;
+    }
+    
+    .Memory {
+      background-color: yellow;
+      border-radius: 10px;
+    }
+    
+    .Verbal {
+      background-color: aquamarine;
+      border-radius: 10px;
+    }
+    
+    .Visual {
+      background-color: blue;
+      border-radius: 10px;
+    }
+    
+    .SumaryNumbers p {
+      margin: 0;
+      padding-top: 5px;
+    }
 
 
 
