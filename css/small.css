@@ -2,4 +2,46 @@
     body{
         background-color: blue;
     }
+    .my-btn {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      
+      /* Set the styles for the button when hovered over */
+      .my-btn:hover {
+        background-color: red;
+        color: white;
+      }
+
+
+      /*Left Screen*/
+      .react{
+        
+      }
+      .reactNum{
+
+      }
+      .mem{
+
+      }
+      .memNum{
+
+      }
+      .verb{
+
+      }
+      .verbNum{
+
+      }
+      .vis{
+
+      }
+      .visNum{
+
+      }
 }
