@@ -2,40 +2,25 @@
     body{
         background-color: blue;
     }
-    .my-btn {
-        background-color: blue;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-      }
-      
-      /* Set the styles for the button when hovered over */
-      .my-btn:hover {
-        background-color: blueviolet;
-        color: white;
-      }
 
-      .LeftScreen{
-        background-color: rgb(52, 101, 236);
-        grid-area: "LeftScreen";
-      }
+    .LeftScreen {
+      background-color: rgb(52, 101, 236);
+      grid-area: LeftScreen; /* Remove the quotes */
+    }
 
-      .RightScreen{
-        background-color: white;
-        grid-area: "RightScreen";
-      }
+    .RightScreen {
+      background-color: white;
+      grid-area: RightScreen; /* Remove the quotes */
+    }
 
-      .container1 {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px 100px;
-        grid-template-areas:
-            "LeftScreen"
-            "RightScreen";
-        gap: 10px;
-        }
+    .container1 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto; /* Adjust the rows as needed */
+      grid-template-areas:
+        "LeftScreen"
+        "RightScreen";
+      gap: 10px;
+    }
 
 }

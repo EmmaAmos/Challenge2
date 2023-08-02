@@ -2,80 +2,53 @@
     body{
         background-color: red;
     }
-    .my-btn {
-        background-color: blue;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-      }
-      
-      /* Set the styles for the button when hovered over */
-      .my-btn:hover {
-        background-color: blueviolet;
-        color: white;
-      }
 
-      /*Left Screen*/
-      
+    /*LeftScreen*/
 
 
-    /*Right Screen*/
-    .LeftScreen{
-        background-color: rgb(52, 101, 236);
-        grid-area: "LeftScreen";
-      }
-
-      .RightScreen{
-        background-color: white;
-        grid-area: "RightScreen";
-      }
-
-    .react{
+     /*Right Screen*/
+  .react{
     text-align: left;
     grid-area: react;
-    }
-    .reactNum{
+  }
+  .reactNum{
     text-align: right;
     grid-area: reactNum;
-    }
-    .mem{
+  }
+  .mem{
     text-align: left;
     grid-area: mem;
-    }
-    .memNum{
+  }
+  .memNum{
     text-align: right;
     grid-area: memNum;
-    }
-    .verb{
+  }
+  .verb{
     text-align: left;
     grid-area: verb;
-    }
-    .verbNum{
+  }
+  .verbNum{
     text-align: right;
     grid-area: verbNum;
-    }
-    .vis{
+  }
+  .vis{
     text-align: left;
     grid-area: vis;
-    }
-    .visNum{
+  }
+  .visNum{
     text-align: right;
-    grid-area: visNum;
-    }
+    grid-area: visNum; 
+  }
 
-    .container2 {
+  .container2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 100px;
     grid-template-areas:
-        "react reactNum"
-        "mem memNum"
-        "verb verbNum"
-        "vis VisNum";
+      "react reactNum"
+      "mem memNum"
+      "verb verbNum"
+      "vis visNum";
     gap: 10px;
-    }
-
+  }
 }
