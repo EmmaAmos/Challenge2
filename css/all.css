@@ -8,6 +8,7 @@ body{
     background-color: blue;
     color: white;
     padding: 10px 20px;
+    padding-right: 40px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -26,6 +27,7 @@ body{
     background-color: rgb(52, 101, 236);
     grid-area: "LeftScreen";
     border-radius: 20px;
+    height: auto;
     text-align: center;
   }
 
@@ -62,31 +64,45 @@ body{
     background-color: white;
     grid-area: "RightScreen";
     border-radius: 20px;
+    height: auto;
     margin-left: -50px;
+  }
+  
+  .RightScreen h1{
+    text-align: left;
+  }
+
+  .sumContainer{
+    padding: 25px;
   }
 
   .reactionSum{
     background-color: hsl(0, 100%, 67%);
     border-radius: 20px;
+    height: 50px;
     padding: 20px;
+    font-size: small;
   }
 
   .memSum{
     background-color:  hsl(39, 100%, 56%);
     border-radius: 20px;
     padding: 20px;
+    font-size: small;
   }
 
   .verbSum{
     background-color: hsl(166, 100%, 37%);
     border-radius: 20px;
     padding: 20px;
+    font-size: small;
   }
   
   .visSum{
     background-color: hsl(234, 85%, 45%);
     border-radius: 20px;
     padding: 20px;
+    font-size: small;
   }
 
 
