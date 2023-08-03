@@ -25,6 +25,8 @@ body{
   .LeftScreen{
     background-color: rgb(52, 101, 236);
     grid-area: "LeftScreen";
+    border-radius: 20px;
+    text-align: center;
   }
 
 
@@ -58,6 +60,9 @@ body{
   /*RightScreen*/
   .RightScreen{
     background-color: white;
+    grid-area: "RightScreen";
+    border-radius: 20px;
+    margin-left: -50px;
   }
 
   .reactionSum{
@@ -128,6 +133,16 @@ body{
     grid-area: visNum; 
   }
 
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; /* Adjust the rows as needed */
+    grid-template-areas:
+      "LeftScreen  RightScreen";
+    gap: 10px;
+    margin: 50px;
+  }
+
   .container2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -139,6 +154,8 @@ body{
       "vis visNum";
     gap: 10px;
   }
+
+
 }
 
 
@@ -149,16 +166,6 @@ body{
         background-color: blue;
     }
 
-    .LeftScreen {
-      background-color: rgb(52, 101, 236);
-      grid-area: LeftScreen; /* Remove the quotes */
-    }
-
-    .RightScreen {
-      background-color: white;
-      grid-area: RightScreen; /* Remove the quotes */
-    }
-
     .container1 {
       display: grid;
       grid-template-columns: 1fr;
@@ -166,6 +173,18 @@ body{
       grid-template-areas:
         "LeftScreen"
         "RightScreen";
+      gap: 10px;
+    }
+
+    .container2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 100px;
+      grid-template-areas:
+        "react reactNum"
+        "mem memNum"
+        "verb verbNum"
+        "vis visNum";
       gap: 10px;
     }
 
