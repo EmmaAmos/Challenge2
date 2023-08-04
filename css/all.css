@@ -27,7 +27,8 @@ body{
     background-color: rgb(52, 101, 236);
     grid-area: "LeftScreen";
     border-radius: 20px;
-    height: auto;
+    height: fit-content;
+    width: fit-content;
     text-align: center;
   }
 
@@ -59,12 +60,17 @@ body{
     font-size: small;
   }
 
+  .sumMessage{
+    text-align: center;
+  }
+
   /*RightScreen*/
   .RightScreen{
     background-color: white;
     grid-area: "RightScreen";
     border-radius: 20px;
-    height: auto;
+    height: fit-content;
+    width: fit-content;
     margin-left: -50px;
   }
   
@@ -109,7 +115,7 @@ body{
 /*BIG CSS*/
 @media  (min-width: 421px){
     body{
-        background-color: red;
+        background-color: rgb(235, 233, 233);
     }
 
     /*LeftScreen*/
@@ -121,8 +127,8 @@ body{
     grid-area: react;
   }
   .reactNum{
-    text-align: right;
     grid-area: reactNum;
+    margin-left: auto;
   }
   .mem{
     text-align: left;
