@@ -13,6 +13,8 @@ body{
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    margin-left: auto;
+    margin
   }
   
   /* Set the styles for the button when hovered over */
@@ -74,8 +76,9 @@ body{
     margin-left: -50px;
   }
   
-  .RightScreen h1{
+  .RightScreen h2{
     text-align: left;
+    margin-left: 25px;
   }
 
   .sumContainer{
