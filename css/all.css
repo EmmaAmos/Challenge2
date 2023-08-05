@@ -1,7 +1,8 @@
 /*COMMON CSS*/
 body{
     font-size: 18px;
-    font-family: Hanken Grotesk;    
+    font-family: Hanken Grotesk;
+    background-color: antiquewhite;   
 }
 
 .my-btn {
@@ -115,14 +116,31 @@ body{
 
 /*BIG CSS*/
 @media  (min-width: 421px){
-    body{
-        background-color: rgb(235, 233, 233);
-    }
 
     /*LeftScreen*/
+    .LeftScreen {
+      background-color: rgb(52, 101, 236);
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
 
-     /*Right Screen*/
+    /*Right Screen*/
+
+  .RightScreen {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .react{
     text-align: left;
     grid-area: react;
@@ -159,23 +177,20 @@ body{
   .container1 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto; /* Adjust the rows as needed */
+    grid-template-rows: auto;
     grid-template-areas:
       "LeftScreen  RightScreen";
-    gap: 10px;
-    margin: 50px;
   }
 
   .container2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
+    grid-template-rows: auto;
     grid-template-areas:
       "react reactNum"
       "mem memNum"
       "verb verbNum"
       "vis visNum";
-    gap: 10px;
   }
 
 
@@ -185,30 +200,45 @@ body{
 /*SMALL CSS*/
 
 @media  (max-width: 420px){
-    body{
-        background-color: blue;
+
+    .LeftScreen {
+      background-color: rgb(52, 101, 236);
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .RightScreen {
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     .container1 {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: auto; /* Adjust the rows as needed */
+      grid-template-rows: auto;
       grid-template-areas:
         "LeftScreen"
         "RightScreen";
-      gap: 10px;
     }
 
     .container2 {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 100px 100px;
+      grid-template-rows: auto;
       grid-template-areas:
         "react reactNum"
         "mem memNum"
         "verb verbNum"
         "vis visNum";
-      gap: 10px;
     }
 
 }
