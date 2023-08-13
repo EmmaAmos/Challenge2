@@ -29,8 +29,7 @@ body{
     background-color: rgb(52, 101, 236);
     grid-area: "LeftScreen";
     border-radius: 20px;
-    height: fit-content;
-    width: fit-content;
+    padding: 20px;
     text-align: center;
   }
 
@@ -71,8 +70,7 @@ body{
     background-color: white;
     grid-area: "RightScreen";
     border-radius: 20px;
-    height: fit-content;
-    width: fit-content;
+    padding: 20px;
     margin-left: -50px;
   }
   
@@ -150,6 +148,7 @@ body{
     grid-area: reactNum;
     margin-left: auto;
   }
+
   .mem{
     text-align: left;
     grid-area: mem;
@@ -173,6 +172,10 @@ body{
   .visNum{
     text-align: right;
     grid-area: visNum; 
+  }
+
+  .space-text {
+    margin-right: 150px;
   }
 
   .container1 {
@@ -200,12 +203,12 @@ body{
 
 /*SMALL CSS*/
 
-@media  (max-width: 420px){
+/*@media  (max-width: 420px){*/
 
     .LeftScreen {
       background-color: rgb(52, 101, 236);
-      border-radius: 20px;
-      padding: 20px;
+      border-radius: auto;
+      padding: auto;
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -214,8 +217,8 @@ body{
 
     .RightScreen {
       background-color: white;
-      border-radius: 20px;
-      padding: 20px;
+      border-radius: auto;
+      padding: auto;
       margin-left: 0;
       display: flex;
       flex-direction: column;
@@ -242,4 +245,4 @@ body{
         "vis visNum";
     }
 
-}
+/*}

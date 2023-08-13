@@ -1,26 +1,43 @@
 @media  (max-width: 420px){
-    body{
-        background-color: blue;
-    }
 
-    .LeftScreen {
-      background-color: rgb(52, 101, 236);
-      grid-area: LeftScreen; /* Remove the quotes */
-    }
+  .LeftScreen {
+    background-color: rgb(52, 101, 236);
+    border-radius: auto;
+    padding: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .RightScreen {
-      background-color: white;
-      grid-area: RightScreen; /* Remove the quotes */
-    }
+  .RightScreen {
+    background-color: white;
+    border-radius: auto;
+    padding: auto;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .container1 {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: auto; /* Adjust the rows as needed */
-      grid-template-areas:
-        "LeftScreen"
-        "RightScreen";
-      gap: 10px;
-    }
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "LeftScreen"
+      "RightScreen";
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "react reactNum"
+      "mem memNum"
+      "verb verbNum"
+      "vis visNum";
+  }
 
 }

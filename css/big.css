@@ -1,20 +1,20 @@
 @media  (min-width: 421px){
-    body{
-        background-color: red;
-    }
 
     /*LeftScreen*/
 
 
-     /*Right Screen*/
+    /*Right Screen*/
+
+
   .react{
     text-align: left;
     grid-area: react;
   }
   .reactNum{
-    text-align: right;
     grid-area: reactNum;
+    margin-left: auto;
   }
+
   .mem{
     text-align: left;
     grid-area: mem;
@@ -40,15 +40,28 @@
     grid-area: visNum; 
   }
 
+  .space-text {
+    margin-right: 150px;
+  }
+
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "LeftScreen  RightScreen";
+  }
+
   .container2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
+    grid-template-rows: auto;
     grid-template-areas:
       "react reactNum"
       "mem memNum"
       "verb verbNum"
       "vis visNum";
-    gap: 10px;
   }
+
+
 }
