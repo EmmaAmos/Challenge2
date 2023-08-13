@@ -1,4 +1,4 @@
-@media  (min-width: 421px){
+
 
     /*LeftScreen*/
 
@@ -43,6 +43,8 @@
   .space-text {
     margin-right: 150px;
   }
+
+@media  (min-width: 421px){
 
   .container1 {
     display: grid;

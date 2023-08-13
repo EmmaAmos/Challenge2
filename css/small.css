@@ -1,4 +1,4 @@
-@media  (max-width: 420px){
+
 
   .LeftScreen {
     background-color: rgb(52, 101, 236);
@@ -19,6 +19,8 @@
     flex-direction: column;
     align-items: center;
   }
+
+@media  (max-width: 420px){
 
   .container1 {
     display: grid;
